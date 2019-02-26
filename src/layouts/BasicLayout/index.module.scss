@@ -1,0 +1,15 @@
+//@import "../../styles/main";
+@import "../../styles/main";
+
+.pageMain {
+  height: calc(100vh - #{$header-height});
+  padding: $gutter-size;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.pageHeader {
+  line-height: 64px;
+}
